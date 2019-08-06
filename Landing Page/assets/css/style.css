@@ -1,0 +1,79 @@
+body
+{
+	margin: 0;
+	padding: 100;
+	min-height: 100vh;
+	position: fixed;
+    overflow-y: scroll;
+	overflow: hidden;
+    width: 100%;
+}
+
+footer
+{
+	background: #393939
+}
+
+#particles-js
+{
+	height: 100vh;
+	background: #393939
+}
+#logo{
+		margin-top: 200px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+		z-index: 2;
+}
+
+#mail{
+		margin-top: 1250px;
+		margin-left: -150px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+		z-index: 2;
+}
+#reddit{
+		margin-top: 1250px;
+		margin-left: 150px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+		z-index: 2;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+p {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}

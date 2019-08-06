@@ -1,2 +1,2 @@
-# landing-page
-A simple, clean desktop-only landing webpage.
+# Landing Page
+A simple, clean desktop-only landing webpage. Plays well with minifying.

@@ -4,9 +4,9 @@ body
 	padding: 100;
 	min-height: 100vh;
 	position: fixed;
-    overflow-y: scroll;
+    	overflow-y: scroll;	/* Prevents scrolling as particles.js is bound to body. */
 	overflow: hidden;
-    width: 100%;
+    	width: 100%;
 }
 
 footer
@@ -20,7 +20,8 @@ footer
 	background: #393939
 }
 #logo{
-		margin-top: 200px;
+	
+	margin-top: 200px;	/* Centers all elements for all desktop browsers. */
         position: absolute;
         top: 0;
         left: 50%;
@@ -34,8 +35,9 @@ footer
 }
 
 #mail{
-		margin-top: 1250px;
-		margin-left: -150px;
+	
+	margin-top: 1250px; 	/* Centers all elements for all desktop browsers. */
+	margin-left: -150px;
         position: absolute;
         top: 0;
         left: 50%;
@@ -48,8 +50,9 @@ footer
 		z-index: 2;
 }
 #reddit{
-		margin-top: 1250px;
-		margin-left: 150px;
+	
+	margin-top: 1250px;		/* Centers all elements for all desktop browsers. */
+	margin-left: 150px;
         position: absolute;
         top: 0;
         left: 50%;
@@ -63,17 +66,21 @@ footer
 }
 
 * {
-    -webkit-user-select: none;
+	
+    -webkit-user-select: none;		/* Prevents selection of images - interacting with the particles could select elements if fast enough. */
     -khtml-user-select: none;
     -moz-user-select: -moz-none;
     -o-user-select: none;
     user-select: none;
+	
 }
 
 p {
-    -webkit-user-select: text;
+	
+    -webkit-user-select: text;		/* Permits text selection, though there isn't any present in the current iteration. */
     -khtml-user-select: text;
     -moz-user-select: text;
     -o-user-select: text;
     user-select: text;
+	
 }

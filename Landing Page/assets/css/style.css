@@ -20,13 +20,6 @@ html, body {
   user-select: none;
 }
 
-
-
-footer
-{
-	background: #393939
-}
-
 #particles-js {
 	position: fixed;
   width: 100%;
@@ -47,23 +40,33 @@ footer
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+	height: 100%;
   z-index: 10000 !important;
+	flex-direction: row;
 }
 
 
 
 
 .particles-container #logo {
-height: 450px;
-width: 450px;
-position: relative;
+	height: 100%;
+	width: 400px;
+	position: relative;
+
+
 }
 
 .particles-container .icons {
-flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-top: 10vh;
 }
 
+.particles-container .icons i {
+font-size: 40px;
+color: #FFFFFF;
+}
 
 
 

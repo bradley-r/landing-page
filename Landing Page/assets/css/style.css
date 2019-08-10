@@ -70,3 +70,10 @@ p {
   -o-user-select: text;
   user-select: text;
 }
+
+/* Responsive (Mobile, Tablet, etc) */
+@media (max-width: 450px) {
+  .particles-container #logo {
+    width: 70vw !important;
+  }
+}

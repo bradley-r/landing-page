@@ -35,14 +35,14 @@ html, body {
 }
 
 .particles-container {
-	margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: absolute;
+  z-index: 999;
   display: flex;
-  align-items: center;
   justify-content: center;
-	height: 100%;
-  z-index: 10000 !important;
-	flex-direction: row;
+  align-items: center;
 }
 
 
@@ -50,22 +50,21 @@ html, body {
 
 .particles-container #logo {
 	height: 100%;
-	width: 400px;
+	width: 30vw;
 	position: relative;
 
 
 }
 
 .particles-container .icons {
-	margin-left: auto;
-	margin-right: auto;
 	position: relative;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 .particles-container .icons i {
 font-size: 40px;
 color: #FFFFFF;
+text-align: center;
 }
 
 

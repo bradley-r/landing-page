@@ -27,56 +27,36 @@ footer
 	background: #393939
 }
 
-#particles-js
-{
-	height: 100vh;
-	background: #393939
-}
-#logo{
-
-	margin-top: 200px;	/* Centers all elements for all desktop browsers. */
-        position: absolute;
-        top: 0;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, 0%);
-        -ms-transform: translate(-50%, 0%);
-        -webkit-transform: translate(-50%, 0%);
-        -moz-transform: translate(-50%, 0%);
-        -o-transform: translate(-50%, 0%);
-		z-index: 2;
+#particles-js {
+	position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed !important;
+  background: #393939;
+  z-index: -1;
 }
 
-#mail{
+.particles-container {
 
-	margin-top: 1250px; 	/* Centers all elements for all desktop browsers. */
-	margin-left: -150px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, 0%);
-        -ms-transform: translate(-50%, 0%);
-        -webkit-transform: translate(-50%, 0%);
-        -moz-transform: translate(-50%, 0%);
-        -o-transform: translate(-50%, 0%);
-		z-index: 2;
 }
-#reddit{
 
-	margin-top: 1250px;		/* Centers all elements for all desktop browsers. */
-	margin-left: 150px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, 0%);
-        -ms-transform: translate(-50%, 0%);
-        -webkit-transform: translate(-50%, 0%);
-        -moz-transform: translate(-50%, 0%);
-        -o-transform: translate(-50%, 0%);
-		z-index: 2;
+
+
+
+.particles-container #logo {
+height: 100%;
+width: 150px;
+
+
+
 }
+
+
 
 
 p {

@@ -1,5 +1,4 @@
 /* Website Copyright © Bradley Reece 2019 - All Rights Reserved */
-
 html, body {
   width: 100%;
   height: 100%;
@@ -21,7 +20,7 @@ html, body {
 }
 
 #particles-js {
-	position: fixed;
+  position: fixed;
   width: 100%;
   height: 100vh;
   background-image: url("");
@@ -45,36 +44,29 @@ html, body {
   align-items: center;
 }
 
-
-
-
 .particles-container #logo {
-	height: 100%;
-	width: 30vw;
-	position: relative;
-
-
+  height: 100%;
+  width: 30vw;
+  position: relative;
 }
 
 .particles-container .icons {
-	position: relative;
-	margin-top: 5vh;
+  position: relative;
+  margin-top: 5vh;
 }
 
 .particles-container .icons i {
-font-size: 40px;
-color: #FFFFFF;
-text-align: center;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 10px;
 }
 
-
-
 p {
-
-    -webkit-user-select: text;		/* Permits text selection, though there isn't any present in the current iteration. */
-    -khtml-user-select: text;
-    -moz-user-select: text;
-    -o-user-select: text;
-    user-select: text;
-
+  -webkit-user-select: text;
+  /* Permits text selection, though there isn't any present in the current iteration. */
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
 }

@@ -48,7 +48,7 @@ html, body {
 
 .particles-container #logo {
   height: 100%;
-  width: 30vw;
+  width: 35vh;
   position: relative;
 }
 
@@ -58,7 +58,7 @@ html, body {
 }
 
 .particles-container .icons i {
-  font-size: 30px;
+  font-size: 1.75em;
   color: #FFFFFF;
   text-align: center;
   margin: 10px;

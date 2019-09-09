@@ -13,8 +13,8 @@ html, body {
 }
 
 * {
-  -webkit-user-select: none;
   /* Prevents selection of images - interacting with the particles could select elements if fast enough. */
+  -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: -moz-none;
   -o-user-select: none;
@@ -65,8 +65,8 @@ html, body {
 }
 
 p {
-  -webkit-user-select: text;
   /* Permits text selection, though there isn't any present in the current iteration. */
+  -webkit-user-select: text;
   -khtml-user-select: text;
   -moz-user-select: text;
   -o-user-select: text;
